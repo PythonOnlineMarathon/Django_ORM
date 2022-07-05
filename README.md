@@ -23,3 +23,6 @@ python manage.py test
 ```
 
 ## Tasks
+Add the required fields to the models.
+Іimplement methods according to docstring  for them
+![image info](django_orm.png)
