@@ -71,7 +71,7 @@ class Author(models.Model):
                surname=None,
                patronymic=None):
         """
-        Updates author in the database with the specified parameters.\n
+        Updates author in the database with the specified parameters.
         param name: Describes name of the author
         type name: str max_length=20
         param surname: Describes surname of the author
