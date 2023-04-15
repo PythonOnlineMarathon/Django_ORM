@@ -3,7 +3,7 @@ from django.db import models
 
 class Book(models.Model):
     """
-        This class represents an Author. \n
+        This class represents an Book. \n
         Attributes:
         -----------
         param name: Describes name of the book

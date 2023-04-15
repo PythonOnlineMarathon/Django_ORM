@@ -5,13 +5,13 @@ class Order(models.Model):
 
     def __str__(self):
         """
-        Magic method is redefined to show all information about Book.
+        Magic method is redefined to show all information about Order.
         :return: book id, book name, book description, book count, book authors
         """
 
     def __repr__(self):
         """
-        This magic method is redefined to show class and id of Book object.
+        This magic method is redefined to show class and id of Order object.
         :return: class, id
         """
         return f'{self.__class__.__name__}(id={self.id})'
